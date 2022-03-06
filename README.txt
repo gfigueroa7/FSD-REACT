@@ -1,6 +1,6 @@
 ------- GITHUB -------
 
-https://github.com/gfigueroa7/FSD-HTML-CSS
+https://github.com/gfigueroa7/FSD-REACT
 
 
 
