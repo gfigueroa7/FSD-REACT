@@ -62,6 +62,7 @@ const App = () => {
     changeMenuButtonDisplay("block");
     window.scrollTo(0, 0);
     addExtraClassToPage(location.pathname, location.state);
+    changePageTitle(location.pathname, location.state);
   },[location.pathname]);
 
   const changeMenuButtonDisplay = (display) => document.querySelector(".bm-burger-button").style.display = display;
@@ -75,6 +76,16 @@ const App = () => {
       let otherClass = '';
       if(state !== null) otherClass = 'detail';
       setLocationClass(pathname.split("/")[1] + ' ' + otherClass);
+    }
+  }
+  const changePageTitle = (pathname, state) => {
+    let title = pathname.split("/")[1].charAt(0).toUpperCase() + pathname.split("/")[1].slice(1);
+    if(!myPages.includes(pathname) && state === null) {
+      document.title = 'Pet Community - 404';
+    } else if(pathname === '/'){
+      document.title = 'Pet Community';
+    } else {
+      document.title = 'Pet Community - ' + title;
     }
   }
 
