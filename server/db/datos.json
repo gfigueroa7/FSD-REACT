@@ -1,0 +1,266 @@
+{
+  "veterinary": [
+    {
+      "title": "Quiron",
+      "text": "Una Veterinaria para cuidarlos tanto como tu lo harias.",
+      "img": "assets/veterinary/vet_quiron.jpg",
+      "crown": "gold",
+      "crown_order": 1,
+      "rating": 3.5,
+      "people": 3,
+      "total": 10.5,
+      "id": 0
+    },
+    {
+      "title": "Teo",
+      "text": "Clínica veterinaria. Asesoramiento técnico. Venta de alimentos y accesorios. Servicio de peluquería...",
+      "img": "assets/veterinary/vet_teo.jpg",
+      "crown": "silver",
+      "crown_order": 2,
+      "rating": 3,
+      "people": 2,
+      "total": 6,
+      "id": 1
+    },
+    {
+      "title": "Medican",
+      "text": "En Veterinaria 'Medican', estamos profundamente comprometidos con el bienestar animal. Hacete socio!",
+      "img": "assets/veterinary/vet_medican.png",
+      "crown": "bronze",
+      "crown_order": 3,
+      "rating": 4,
+      "people": 2,
+      "total": 8,
+      "id": 2
+    },
+    {
+      "title": "Azul",
+      "text": "Veterinaria Azul.",
+      "img": "assets/veterinary/vet_azul.jpg",
+      "crown": "",
+      "crown_order": 4,
+      "rating": 0,
+      "people": 0,
+      "total": 0,
+      "id": 3
+    },
+    {
+      "title": "Cocky",
+      "text": "Hace veinte años estamos en el barrio brindando una atención profesional y personalizada a sus mascotas",
+      "img": "assets/veterinary/vet_cocky.jpg",
+      "crown": "",
+      "crown_order": 4,
+      "rating": 0,
+      "people": 0,
+      "total": 0,
+      "id": 4
+    }
+  ],
+  "stores": [
+    {
+      "title": "Pet’s Market",
+      "text": " Lo mejor para ellos Contamos con una amplia variedad de alimentos balanceados, accesorios, productos veterinarios y todo lo que necesites para el cuidado de tus mascotas.",
+      "img": "assets/stores/tienda_petmarket.png",
+      "crown": "gold",
+      "crown_order": 1,
+      "rating": 4.5,
+      "people": 1,
+      "total": 4.5,
+      "id": 0
+    },
+    {
+      "title": "Animalia",
+      "text": "En animalia pet shop encontraras variedad de marcas de la mejor calidad y excelentes precios",
+      "img": "assets/stores/tienda_animalia.jpg",
+      "crown": "silver",
+      "crown_order": 2,
+      "rating": 4,
+      "people": 1,
+      "total": 4,
+      "id": 1
+    },
+    {
+      "title": "Agrohuellas",
+      "text": "Tenemos amplia variedad de artículos para tu mascota: alimentos balanceados, alimentos medicados, accesorios y más.",
+      "img": "assets/stores/tienda_agrohuellas.jpg",
+      "crown": "bronze",
+      "crown_order": 3,
+      "rating": 0,
+      "people": 0,
+      "total": 0,
+      "id": 2
+    },
+    {
+      "title": "Animal Shop Garibaldi",
+      "text": "Comida para perros, comida para gatos, articulos sanitarios, transportadoras, camas, correas, juguetes, platos, bebederos, cualquier accesorio que ...",
+      "img": "assets/stores/tienda_animalshop.png",
+      "crown": "",
+      "crown_order": 4,
+      "rating": 0,
+      "people": 0,
+      "total": 0,
+      "id": 3
+    },
+    {
+      "title": "Atrix",
+      "text": "¡Tus amigos son los nuestros!",
+      "img": "assets/stores/tienda_atrix.jpeg",
+      "crown": "",
+      "crown_order": 4,
+      "rating": 0,
+      "people": 0,
+      "total": 0,
+      "id": 4
+    }
+  ],
+  "trainers": [
+    {
+      "title": "DOG Uruguay",
+      "text": "Es el único centro de formación profesional en Uruguay. Brindamos servicios de Coaching a propietarios y profesionales.",
+      "img": "assets/trainers/ent_doguruay.png",
+      "crown": "gold",
+      "crown_order": 1,
+      "rating": 4.5,
+      "people": 3,
+      "total": 13.5,
+      "id": 0
+    },
+    {
+      "title": "EntrenaDogs",
+      "text": "Dedicamos nuestro tiempo a prestar servicios que ayuden a mejorar su relación con sus mascotas y la relación de sus mascotas con el mundo.",
+      "img": "assets/trainers/ent_entrenadogs.jpg",
+      "crown": "gold",
+      "crown_order": 1,
+      "rating": 4.5,
+      "people": 2,
+      "total": 9,
+      "id": 1
+    },
+    {
+      "title": "Sofía Ciliano",
+      "text": "Mi idea de educación canina se basa en formar un perro equilibrado y feliz, por lo tanto junto a cada familia nos encargamos de mejorar su bienestar emocional, brindando apoyo, trabajando en conjunto y cada caso en particular.",
+      "img": "assets/trainers/ent_sofia.png",
+      "crown": "silver",
+      "crown_order": 2,
+      "rating": 4.5,
+      "people": 2,
+      "total": 9,
+      "id": 2
+    },
+    {
+      "title": "Marcelo Lima Viera",
+      "text": "Adiestramiento en Obediencia.",
+      "img": "assets/trainers/ent_marcelo.jpg",
+      "crown": "bronze",
+      "crown_order": 3,
+      "rating": 0,
+      "people": 0,
+      "total": 0,
+      "id": 3
+    },
+    {
+      "title": "Dog Walkers",
+      "text": "Adiestramiento canino.",
+      "img": "assets/trainers/ent_dogwalkers.jpg",
+      "crown": "",
+      "crown_order": 4,
+      "rating": 0,
+      "people": 0,
+      "total": 0,
+      "id": 4
+    },
+    {
+      "title": "Martin",
+      "text": "Soy adiestrador enseñó al can el adiestramiento básico, de agilidad, y defensa de los mismos.",
+      "img": "assets/trainers/ent_martin.jpg",
+      "crown": "",
+      "crown_order": 4,
+      "rating": 0,
+      "people": 0,
+      "total": 0,
+      "id": 5
+    }
+  ],
+  "veterinary_detail": [
+    {
+      "title": "Quiron",
+      "text": "Una Veterinaria para cuidarlos tanto como tu lo harias.",
+      "img": "/assets/veterinary/vet_quiron.jpg",
+      "schedule": {
+        "week": "Lun a Vie de 09:00 - 18:30",
+        "saturday": "Sabados de 10:00 - 16:00",
+        "sunday": "CERRADO"
+      },
+      "phone": "2336 6338",
+      "email": "vetquiron2@gmail.com",
+      "address": "Aires Puros, Montevideo",
+      "location": "Felipe Carape 4514",
+      "map_img": "/assets/veterinary/quiron_map.jpg",
+      "map_url": "https://www.google.com/maps/place/Veterinaria+Quir%C3%B3n/@-34.8525212,-56.1949203,15z/data=!4m5!3m4!1s0x0:0xbac1eb4f1c53014b!8m2!3d-34.8525212!4d-56.1949203",
+      "id": 0
+    }
+  ],
+  "stores_detail": [
+    {
+      "title": "Pet’s Market",
+      "text": "Lo mejor para ellos Contamos con una amplia variedad de alimentos balanceados, accesorios, productos veterinarios y todo lo que necesites para el cuidado de tus mascotas.",
+      "img": "/assets/stores/tienda_petmarket.png",
+      "schedule": {
+        "week": "Lun a Vie de 10:00 - 20:00",
+        "saturday": "Sabados de 10:00 - 20:00",
+        "sunday": "CERRADO"
+      },
+      "phone": "2714 7413",
+      "email": "disnutrix@gmail.com",
+      "address": "Scosería 2621",
+      "location": "Montevideo",
+      "map_img": "/assets/stores/petmarket_mapa.jpg",
+      "map_url": "https://www.google.com/maps/place/Pet's+Market/@-34.9150753,-56.1557729,15z/data=!4m5!3m4!1s0x0:0x22f83f6e863bf6fc!8m2!3d-34.9150753!4d-56.1557729",
+      "id": 0
+    }
+  ],
+  "trainers_detail": [
+    {
+      "title": "DOG Uruguay",
+      "text": "Es el único centro de formación profesional en Uruguay.<br>Brindamos servicios de Coaching a propietarios y profesionales.<br>Trabajamos desde el respeto hacia el perro.<br>Enseñamos con un sistema en positivo ,único a nivel mundial CoachinDOg propiedad de su creador Juan Carlos Moreda. ( Krusaiker )<br>Adiestramos con el método ( Ne.Po.Po.)<br>Utilizando de forma profesional todas las herramientas en positivo.<br>Coach: es alguien que te ayuda a crecer, pensar y a mejorar la relación con tu perro; Dog es hacer equipo con el te comunicas ayudas al Perro a pensar, ser proactivo y ayudas a potenciar sus capacidades para hacer equipo con el.<br>Avanzamos Trabajamos y Disfrutamos Juntos.<br>Haciendo equipo con el perro.<br>En Uruguay desde 2013.<br>Tenemos 32 años de experiencias en el trabajo funcional con perros de todas las razas.<br>Únicos autorizados a impartir la formación completa del Sistema y marca Swedish Muzzle Work Bozal de impacto Sueco.<br>",
+      "img": "/assets/trainers/ent_doguruay.png",
+      "schedule": {
+        "week": "",
+        "saturday": "",
+        "sunday": ""
+      },
+      "phone": "094653576",
+      "email": "doguruguay@gmail.com",
+      "address": "Felipe Contucci 4228",
+      "location": "Aires Puros, Montevideo",
+      "map_img": "/assets/trainers/face_doguruguay.jpg",
+      "map_url": "https://www.facebook.com/DOGUruguayDOG/",
+      "id": 0
+    },
+    {
+      "title": "EntrenaDogs",
+      "text": "Dedicamos nuestro tiempo a prestar servicios que ayuden a mejorar su relación con sus mascotas y la relación de sus mascotas con el mundo. <br> Nuestro enfoque es la obediencia, el autocontrol y la calma. Logrado a través de ejercicio, refuerzos positivos, disciplina y mucha pasiencia. <br> Prestamos servicios de: <br> -Adiestramiento canino en obediencia básica y avanzada, desde los 3 meses de vida hasta los 7 años de edad.(con paseos incluidos) <br> -Entrenamiento efectivo para enseñar a pasear a tu perro y a olvidarse del estrés y el constante tironeo. Sin limite de edad <br> -Baños a domicilo (Para casos complicados o para mejorar el comportamiento en dicha labor) <br> -Cortes y limado de uñas",
+      "img": "/assets/trainers/ent_entrenadogs.jpg",
+      "schedule": {
+        "week": "",
+        "saturday": "",
+        "sunday": ""
+      },
+      "phone": "096339617",
+      "email": "cristopher.dog@gmail.com",
+      "address": "Colonia Nicolich",
+      "location": "Canelones",
+      "map_img": "/assets/trainers/face_entrenadogs.jpg",
+      "map_url": "https://www.facebook.com/EntrenaDogsMVD/?ti=as",
+      "id": 1
+    }
+  ],
+  "apply": [
+    {
+      "name": "German Figueroa",
+      "email": "germi.fime@gmail.com",
+      "tipo": "trainers",
+      "id": 0
+    }
+  ]
+}
