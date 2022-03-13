@@ -17,15 +17,15 @@ const Header = ({mainName,subName,btnName}) => {
                 <h1 className="heading-primary">
                     <span className="heading-primary--main">{mainName}</span>
                     {
-                        subName != "" ? <span className="heading-primary--sub">{subName}</span> : ""
+                        subName !== "" ? <span className="heading-primary--sub">{subName}</span> : ""
                     }
                 </h1>
                 {
-                    btnName != "" ? <button className="btn__button" onClick={scrollToDown}>{btnName}</button> : ""
+                    btnName !== "" ? <button className="btn__button" onClick={scrollToDown}>{btnName}</button> : ""
                 }                  
             </div>
             {
-                subName != "" && btnName != "" ?
+                subName !== "" && btnName !== "" ?
                 <div className="header__animation">
                 <i className="fas fa-paw"></i>
                 <i className="fas fa-paw"></i>

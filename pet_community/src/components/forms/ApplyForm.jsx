@@ -15,7 +15,7 @@ function ApplyForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         let trimmedTitle = formTitle.trim();
-        if(formName != '' && formEmail != '' && formTipo != '' && trimmedTitle != '' && formText != '') {
+        if(formName !== '' && formEmail !== '' && formTipo !== '' && trimmedTitle !== '' && formText !== '') {
             setFormMsg("");
             setStarLoading(true);
 
@@ -108,7 +108,7 @@ function ApplyForm() {
             </form>
 
             {
-                formMsg != "" ? <p className={'form__msg '+formClassValidation} dangerouslySetInnerHTML={{__html: formMsg}} /> : '' 
+                formMsg !== "" ? <p className={'form__msg '+formClassValidation} dangerouslySetInnerHTML={{__html: formMsg}} /> : '' 
             }
 
             <span className='loading'>

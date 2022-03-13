@@ -70,7 +70,7 @@ const App = () => {
   const addExtraClassToPage = (pathname, state) => {
     if(!myPages.includes(pathname) && state === null) {
       setLocationClass(pathname.split("/")[1] + ' not_founded');
-    } else if(pathname == '/veterinarias' || pathname == '/tiendas' || pathname == '/entrenadores') {
+    } else if(pathname === '/veterinarias' || pathname === '/tiendas' || pathname === '/entrenadores') {
       setLocationClass(pathname.split("/")[1] + ' list');
     } else {
       let otherClass = '';
@@ -78,6 +78,7 @@ const App = () => {
       setLocationClass(pathname.split("/")[1] + ' ' + otherClass);
     }
   }
+
   const changePageTitle = (pathname, state) => {
     let title = pathname.split("/")[1].charAt(0).toUpperCase() + pathname.split("/")[1].slice(1);
     if(!myPages.includes(pathname) && state === null) {
@@ -85,7 +86,7 @@ const App = () => {
     } else if(pathname === '/'){
       document.title = 'Pet Community';
     } else {
-      document.title = 'Pet Community - ' + title;
+      document.title = title + ' - Pet Community';
     }
   }
 
@@ -116,7 +117,7 @@ const App = () => {
         }
 
         {
-          location.pathname != '/comunidad' ? <Footer /> : ''
+          location.pathname !== '/comunidad' ? <Footer /> : ''
         }
 
       </div>

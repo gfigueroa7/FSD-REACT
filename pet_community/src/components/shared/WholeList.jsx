@@ -65,9 +65,10 @@ const WholeList = ({arrayList, pathname, url, color}) => {
                 if(a.title < b.title){
                     return -1;
                 } 
-                if(a.title == b.title){
+                if(a.title === b.title){
                     return 0;
-                } 
+                }
+                return 0;
             }
         );
         console.log(arrayList)
@@ -82,9 +83,10 @@ const WholeList = ({arrayList, pathname, url, color}) => {
                 if(b.title < a.title){
                     return -1;
                 } 
-                if(b.title == a.title){
+                if(b.title === a.title){
                     return 0;
                 } 
+                return 0;
             }
         );
     }
@@ -104,8 +106,8 @@ const WholeList = ({arrayList, pathname, url, color}) => {
     const contentImg = (value) => {
         return <>
             <div className="img__fondo"></div>
-            <img src={value.img} />
-            {value.crown != '' ? <i className={`fas fa-crown `+value.crown}></i> : ''}
+            <img src={value.img} alt="Logo" />
+            {value.crown !== '' ? <i className={`fas fa-crown `+value.crown}></i> : ''}
         </>
     }
 

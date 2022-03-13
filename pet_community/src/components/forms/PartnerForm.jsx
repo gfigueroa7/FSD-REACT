@@ -15,7 +15,7 @@ const PartnerForm = ({title,price,number}) => {
         if(!onlyLetters(trimmedName)) {
             setFormMsg(`El nombre no es valido.<br> No puede estar vacio. <br> No puede contener números.`);
             setFormClassValidation("msg__error");
-        } else if(trimmedName != '' && formEmail != '') {
+        } else if(trimmedName !== '' && formEmail !== '') {
             setFormMsg(`Gracias <b>${trimmedName}</b> por estar interesado, nos pondremos en contacto.`);
             setFormClassValidation("msg__ok");
             clearFormFields();
@@ -64,7 +64,7 @@ const PartnerForm = ({title,price,number}) => {
             </form>
 
             {
-                formMsg != "" ? <p className={'form__msg '+formClassValidation} dangerouslySetInnerHTML={{__html: formMsg}} /> : '' 
+                formMsg !== "" ? <p className={'form__msg '+formClassValidation} dangerouslySetInnerHTML={{__html: formMsg}} /> : '' 
             }
             
         </>

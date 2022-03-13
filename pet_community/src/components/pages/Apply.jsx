@@ -18,7 +18,10 @@ function Apply() {
             class="about__sponsor"/>
 
             <section className="section__form">
-                <ApplyForm />
+                <h2 className="h2__heading">Formulario</h2>
+                <div class="contacto__card">
+                    <ApplyForm />
+                </div>
             </section>
         </>
     );

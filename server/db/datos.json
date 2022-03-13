@@ -6,9 +6,9 @@
       "img": "assets/veterinary/vet_quiron.jpg",
       "crown": "gold",
       "crown_order": 1,
-      "rating": 3.5,
-      "people": 3,
-      "total": 10.5,
+      "rating": 4.38,
+      "people": 4,
+      "total": 17.5,
       "id": 0
     },
     {
@@ -17,9 +17,9 @@
       "img": "assets/veterinary/vet_teo.jpg",
       "crown": "silver",
       "crown_order": 2,
-      "rating": 3,
-      "people": 2,
-      "total": 6,
+      "rating": 4.38,
+      "people": 4,
+      "total": 17.5,
       "id": 1
     },
     {
@@ -28,9 +28,9 @@
       "img": "assets/veterinary/vet_medican.png",
       "crown": "bronze",
       "crown_order": 3,
-      "rating": 4,
-      "people": 2,
-      "total": 8,
+      "rating": 3.67,
+      "people": 3,
+      "total": 11,
       "id": 2
     },
     {
@@ -63,9 +63,9 @@
       "img": "assets/stores/tienda_petmarket.png",
       "crown": "gold",
       "crown_order": 1,
-      "rating": 4.5,
-      "people": 1,
-      "total": 4.5,
+      "rating": 4.3,
+      "people": 5,
+      "total": 21.5,
       "id": 0
     },
     {
@@ -74,9 +74,9 @@
       "img": "assets/stores/tienda_animalia.jpg",
       "crown": "silver",
       "crown_order": 2,
-      "rating": 4,
-      "people": 1,
-      "total": 4,
+      "rating": 3.75,
+      "people": 4,
+      "total": 15,
       "id": 1
     },
     {
@@ -85,9 +85,9 @@
       "img": "assets/stores/tienda_agrohuellas.jpg",
       "crown": "bronze",
       "crown_order": 3,
-      "rating": 0,
-      "people": 0,
-      "total": 0,
+      "rating": 4.17,
+      "people": 3,
+      "total": 12.5,
       "id": 2
     },
     {
@@ -120,9 +120,9 @@
       "img": "assets/trainers/ent_doguruay.png",
       "crown": "gold",
       "crown_order": 1,
-      "rating": 4.5,
-      "people": 3,
-      "total": 13.5,
+      "rating": 4.64,
+      "people": 7,
+      "total": 32.5,
       "id": 0
     },
     {
@@ -131,9 +131,9 @@
       "img": "assets/trainers/ent_entrenadogs.jpg",
       "crown": "gold",
       "crown_order": 1,
-      "rating": 4.5,
-      "people": 2,
-      "total": 9,
+      "rating": 4.42,
+      "people": 6,
+      "total": 26.5,
       "id": 1
     },
     {
@@ -142,9 +142,9 @@
       "img": "assets/trainers/ent_sofia.png",
       "crown": "silver",
       "crown_order": 2,
-      "rating": 4.5,
-      "people": 2,
-      "total": 9,
+      "rating": 3.6,
+      "people": 5,
+      "total": 18,
       "id": 2
     },
     {
@@ -153,9 +153,9 @@
       "img": "assets/trainers/ent_marcelo.jpg",
       "crown": "bronze",
       "crown_order": 3,
-      "rating": 0,
-      "people": 0,
-      "total": 0,
+      "rating": 3.6,
+      "people": 5,
+      "total": 18,
       "id": 3
     },
     {
