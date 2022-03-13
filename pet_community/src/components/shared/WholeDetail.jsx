@@ -7,7 +7,7 @@ const WholeDetail = ({object, pathname}) => {
         <div className="content__detail">
             <h2 className="h2__heading">{object.title}</h2>
             <Link to={`/${father}`}><button className="btn__button">← Volver</button></Link>
-            <div className="detail__img"><img src={object.img} /></div>
+            <div className="detail__img"><img src={object.img} alt="Logo" /></div>
             <div className="detail__info">
                 <div className="info__A">
                     <p className="info__title"><b>LOCALIDAD</b></p><p>{object.location}</p><br/>
@@ -31,8 +31,8 @@ const WholeDetail = ({object, pathname}) => {
 
                 {
                     object.map_img !== '' ?
-                    <><img src={object.map_img} />
-                    <a href={`${object.map_url}`} target="_blank" >VER</a></>
+                    <><img src={object.map_img} alt="Ir" />
+                    <a href={`${object.map_url}`} target="_blank" rel="noreferrer">VER</a></>
                     : ''
                 }
 
